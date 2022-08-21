@@ -11,13 +11,8 @@ public class Evento {
     private int capacidad;
     private double costoBoleto;
     
-    //Metodos 
-    
-    public Evento()
-    {
-        
-    }
-  
+    //Metodos Setters y Getters 
+
     public void setFecha(String fecha)
     {
         this.fecha = fecha;
@@ -63,16 +58,9 @@ public class Evento {
         return costoBoleto;
     }
     
-    //Metodos Constructores
+    //Metodo Constructor vacio
     
-    public Evento(String fecha, String hora, String lugar, int capacidad, double costoBoleto)
-    {
-    this.fecha = fecha;
-    this.hora = hora;
-    this.lugar = lugar;
-    this.capacidad = capacidad;
-    this.costoBoleto = costoBoleto;
-    }
+    public Evento() {}
     
     //NOTA: Solo me permite definir un constructor
     /*
@@ -85,8 +73,6 @@ public class Evento {
     costoBoleto = 299.99;
     }
     */
-    
-    
-    
+
     
 }
